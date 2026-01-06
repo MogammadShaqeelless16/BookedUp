@@ -113,12 +113,7 @@ export default function Home() {
   );
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerTitle}>Find Your Perfect Venue</Text>
-        <Text style={styles.headerSubtitle}>Book amazing spaces for your events</Text>
-      </View>
-
+    <View style={styles.container}>
       <View style={styles.searchContainer}>
         <View style={styles.searchBar}>
           <Search size={20} color="#666666" strokeWidth={2} />
@@ -167,7 +162,7 @@ export default function Home() {
           />
         </View>
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -176,23 +171,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFFFFF',
   },
-  header: {
-    paddingHorizontal: 20,
-    paddingVertical: 20,
-  },
-  headerTitle: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#0850AE',
-    marginBottom: 4,
-  },
-  headerSubtitle: {
-    fontSize: 16,
-    color: '#666666',
-  },
   searchContainer: {
     flexDirection: 'row',
-    paddingHorizontal: 20,
+    paddingHorizontal: 16,
+    paddingTop: 16,
     marginBottom: 24,
     gap: 12,
   },
