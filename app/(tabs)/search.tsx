@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { router } from 'expo-router';
-import { Search, SlidersHorizontal } from 'lucide-react-native';
+import {  SlidersHorizontal } from 'lucide-react-native';
 
 export default function Search() {
   return (
