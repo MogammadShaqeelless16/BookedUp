@@ -9,19 +9,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, router } from 'expo-router';
-import {
-  ArrowLeft,
-  Calendar,
-  Clock,
-  Users,
-  MapPin,
-  Phone,
-  Mail,
-  Star,
-  CheckCircle,
-  AlertCircle,
-  XCircle,
-} from 'lucide-react-native';
+import { ArrowLeft, Calendar, Clock, Users, MapPin, Phone, Mail, Star, CircleCheck as CheckCircle, CircleAlert as AlertCircle, Circle as XCircle } from 'lucide-react-native';
 
 const bookingDetails = {
   id: '1',

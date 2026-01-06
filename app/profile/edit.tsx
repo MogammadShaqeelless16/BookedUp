@@ -11,16 +11,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import {
-  ArrowLeft,
-  Camera,
-  User,
-  Mail,
-  Phone,
-  MapPin,
-  Calendar,
-  Edit3,
-} from 'lucide-react-native';
+import { ArrowLeft, Camera, User, Mail, Phone, MapPin, Calendar, CreditCard as Edit3 } from 'lucide-react-native';
 
 export default function EditProfile() {
   const [profileData, setProfileData] = useState({

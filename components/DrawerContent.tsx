@@ -10,18 +10,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { DrawerContentScrollView } from '@react-navigation/drawer';
-import {
-  Home,
-  Search,
-  Calendar,
-  User,
-  Building,
-  Briefcase,
-  Settings,
-  HelpCircle,
-  LogOut,
-  X,
-} from 'lucide-react-native';
+import { Hop as Home, Search, Calendar, User, Building, Briefcase, Settings, Circle as HelpCircle, LogOut, X } from 'lucide-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const menuItems = [

@@ -9,17 +9,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import {
-  ArrowLeft,
-  MessageCircle,
-  Phone,
-  Mail,
-  HelpCircle,
-  FileText,
-  Users,
-  ChevronRight,
-  ExternalLink,
-} from 'lucide-react-native';
+import { ArrowLeft, MessageCircle, Phone, Mail, Circle as HelpCircle, FileText, Users, ChevronRight, ExternalLink } from 'lucide-react-native';
 
 const helpSections = [
   {
